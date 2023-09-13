@@ -19,6 +19,9 @@ public class Persona
     {
     }
 
+    public String checarEntrada(){
+        return "cheque mi entrada";
+    }
 
     public String getNombre(){
         return nombre;

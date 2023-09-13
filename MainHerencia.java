@@ -12,6 +12,9 @@ public class MainHerencia
         Persona jose = new Empleado();
         
         Cliente adrianCliente =(Cliente) adrian;
-        Empleado adrianEmpleado = (Empleado) adrian;
+        Empleado adrianEmpleado = (Empleado) jose;
+        
+        System.out.println(adrianEmpleado.checarEntrada());
+         System.out.println(adrianCliente.checarEntrada());
     }
 }

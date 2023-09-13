@@ -7,4 +7,7 @@
  */
 public class Empleado extends Persona
 {
+     public String checarEntrada(){
+        return "Entro al tec y voy al relog checador";
+    }
 }
